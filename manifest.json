@@ -1,6 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "ChatGPT Tag Changer",
+    "name": "ChatGPT Accessibility Enhancements",
+    "description": "Makes the ChatGPT web interface easier to use with a screen reader.",
     "version": "1.0",
     "permissions": [
         "activeTab",

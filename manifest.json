@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Tag Changer",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
